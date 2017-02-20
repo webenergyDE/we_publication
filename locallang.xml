@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'we_publication'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Publications</label>
+			<label index="pi1_plus_wiz_description">Lists publications and displays details of selected publication.</label>
+			<label index="we_publication.pi_flexform.sheet_configuration">Configuration</label>
+			<label index="we_publication.pi_flexform.code">What to display?</label>
+			<label index="we_publication.pi_flexform.singlePid">Page for single-view (details):</label>
+			<label index="we_publication.pi_flexform.listPid">Page for list-view (overview):</label>
+			<label index="we_publication.pi_flexform.authorExtPid">Page for external author-view:</label>
+			<label index="we_publication.pi_flexform.authorIntPid">Page for internal author-view:</label>
+			<label index="we_publication.pi_flexform.authorExtGrpIds">FE-usergroup(s) of author:</label>
+			<label index="we_publication.pi_flexform.authorIntGrpIds">FE-usergroup(s) of internal authors:</label>
+			<label index="we_publication.pi_flexform.publicationPidInList">Publications to show:</label>
+			<label index="we_publication.pi_flexform.sheet_listView">List view</label>
+			<label index="we_publication.pi_flexform.sheet_selectedListView">Selected list view</label>			
+			<label index="we_publication.pi_flexform.sheet_singleView">Single view</label>
+			<label index="we_publication.pi_flexform.imageMaxWidth">Max width of image:</label>
+			<label index="we_publication.pi_flexform.imageMaxHeight">Max height of image:</label>
+			<label index="we_publication.pi_flexform.orderPub">Column to sort by the publications:</label>
+			<label index="we_publication.pi_flexform.orderTypePub">Desc/asc:</label>
+			<label index="we_publication.pi_flexform.orderAuthor">Column to sort by the authors:</label>
+			<label index="we_publication.pi_flexform.orderTypeAuthor">Desc/asc:</label>
+			<label index="we_publication.pi_flexform.template_file">Template file</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">Publikationen</label>
+			<label index="pi1_plus_wiz_description">Listet Publikationen und zeigt Details zu selektierter Publikation.</label>
+		</languageKey>
+	</data>
+</T3locallang>

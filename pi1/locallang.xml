@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_wepublication_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="listFieldLabel_title">Title of publication:</label>
+			<label index="listFieldLabel_magazine">Magazine:</label>
+			<label index="listFieldLabel_year">Year:</label>
+			<label index="listFieldLabel_status">Status:</label>
+			<label index="listFieldLabel_issue">Issue:</label>
+			<label index="listFieldLabel_page">Page:</label>
+			<label index="listFieldLabel_page_end">Page (end):</label>
+			<label index="listFieldLabel_page_start">Page (start):</label>
+			<label index="listFieldLabel_abstract">Abstract:</label>
+			<label index="listFieldLabel_cover">Cover:</label>
+			<label index="listFieldLabel_url">www:</label>
+			<label index="listFieldLabel_doi">Digital object identifier (doi):</label>
+			<label index="listFieldLabel_pacs">PACS:</label>
+			<label index="listFieldLabel_document_1">Document 1:</label>
+			<label index="listFieldLabel_document_2">Document 2:</label>
+			<label index="listFieldLabel_document_3">Document 2:</label>
+			<label index="listFieldLabel_authors">Authors:</label>
+			<label index="listFieldLabel_comment">Comment:</label>
+			<label index="listFieldLabel_author_name">Name:</label>
+			<label index="listFieldLabel_author_first_name">First name:</label>
+			<label index="listFieldLabel_author_last_name">Last name:</label>
+			<label index="listFieldLabel_author_organisation">Organisation:</label>
+			<label index="listFieldLabel_author_email">E-mail:</label>
+			<label index="listFieldLabel_author_www">www:</label>
+			<label index="singleFieldLabel_title">Title of publication:</label>
+			<label index="singleFieldLabel_magazine">Magazine:</label>
+			<label index="singleFieldLabel_year">Year:</label>
+			<label index="singleFieldLabel_status">Status:</label>
+			<label index="singleFieldLabel_issue">Issue:</label>
+			<label index="singleFieldLabel_page">Page:</label>
+			<label index="singleFieldLabel_page_end">Page (end):</label>
+			<label index="singleFieldLabel_page_start">Page (start):</label>
+			<label index="singleFieldLabel_abstract">Abstract:</label>
+			<label index="singleFieldLabel_cover">Cover:</label>
+			<label index="singleFieldLabel_url">www:</label>
+			<label index="singleFieldLabel_doi">Digital object identifier (doi):</label>
+			<label index="singleFieldLabel_pacs">PACS:</label>
+			<label index="singleFieldLabel_document_1">Document 1:</label>
+			<label index="singleFieldLabel_document_2">Document 2:</label>
+			<label index="singleFieldLabel_document_3">Document 2:</label>
+			<label index="singleFieldLabel_authors">Authors:</label>
+			<label index="singleFieldLabel_comment">Comment:</label>
+			<label index="singleFieldLabel_author_name">Name:</label>
+			<label index="singleFieldLabel_author_first_name">First name:</label>
+			<label index="singleFieldLabel_author_last_name">Last name:</label>
+			<label index="singleFieldLabel_author_organisation">Organisation:</label>
+			<label index="singleFieldLabel_author_email">E-mail:</label>
+			<label index="singleFieldLabel_author_www">www:</label>
+			<label index="status.I.1">to be published</label>
+			<label index="status.I.2">submitted</label>
+			<label index="status.I.3">accepted for publication</label>
+			<label index="status.I.4">in press</label>
+			
+			<label index="back">Back</label>
+			<label index="pi_list_browseresults_prev">&lt; Previous</label>
+			<label index="pi_list_browseresults_page">Page</label>
+			<label index="pi_list_browseresults_next">Next &gt;</label>
+			<label index="pi_list_browseresults_displays">Displaying results ###SPAN_BEGIN###%s to %s&lt;/span&gt; out of ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="pi_list_searchBox_search">Search</label>
+		</languageKey>
+	</data>
+</T3locallang>

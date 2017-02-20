@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Unbenanntes Dokument</title>
+</head>
+<body>
+<h1>Template for list view</h1>
+<p>Possible markers:</p>
+<ul>
+  <li>###CLASS###</li>
+  <li>###LABEL_title###, ###FIELD_title###</li>
+  <li>###LABEL_magazine###, ###FIELD_magazine###</li>
+  <li>###LABEL_year### ###FIELD_year###</li>
+  <li>###LABEL_status### ###FIELD_status###</li>
+  <li>###LABEL_issue### ###FIELD_issue###</li>
+  <li>###LABEL_page_start### ###FIELD_page_start###</li>
+  <li>###LABEL_page_end### ###FIELD_page_end###</li>
+  <li>###LABEL_abstract### ###FIELD_abstract###</li>
+  <li>###LABEL_url### ###FIELD_url###</li>
+  <li>###LABEL_cover### ###FIELD_cover###</li>
+  <li>###LABEL_doi### ###FIELD_doi###</li>
+  <li>###LABEL_ids### ###FIELD_ids###</li>
+  <li>###LABEL_url### ###FIELD_url###</li>
+  <li>###LABEL_comment### ###FIELD_comment###</li>
+  <li>###LABEL_author_internal###</li>
+  <li>###LABEL_author_external###</li>
+</ul>
+<!-- ###LIST_VIEW### begin -->
+<table class="formed">
+  <tbody>
+    <!-- ###LIST### begin -->
+    <!-- ###ITEM### begin -->
+    <tr class="###CLASS###">
+      <td><!-- ###SUB_INCLUDED_FIELD_title### begin -->
+        <strong>###FIELD_title###</strong><br />
+        <!-- ###SUB_INCLUDED_FIELD_title### end -->
+        <!-- ###SUB_INCLUDED_FIELD_magazine### begin -->
+        ###FIELD_magazine###
+        <!-- ###SUB_INCLUDED_FIELD_magazine### end -->
+        <!-- ###SUB_INCLUDED_FIELD_year### begin -->
+        ###FIELD_year###
+        <!-- ###SUB_INCLUDED_FIELD_year### end -->
+        <!-- ###SUB_INCLUDED_FIELD_status### begin -->
+        (###FIELD_status###)
+        <!-- ###SUB_INCLUDED_FIELD_status### end -->
+        <!-- ###SUB_INCLUDED_FIELD_doi### begin -->
+        <p>###LABEL_doi### ###FIELD_doi###</p>
+        <!-- ###SUB_INCLUDED_FIELD_doi### end -->
+        <!-- ###SUB_INCLUDED_FIELD_authors### begin -->
+        <ul>
+          <!-- ###AUTHORS### begin -->
+          <!-- ###AUTHORS_INTERNAL_ITEM### begin -->
+          <li class="###CLASS###">
+            <!-- ###SUB_INCLUDED_FIELD_author_name### begin -->
+            ###FIELD_author_name###
+            <!-- ###SUB_INCLUDED_FIELD_author_name### end -->
+          </li>
+          <!-- ###AUTHORS_INTERNAL_ITEM### end -->
+          <!-- ###AUTHORS_EXTERNAL_ITEM### begin -->
+          <li class="###CLASS###">
+            <!-- ###SUB_INCLUDED_FIELD_author_name### begin -->
+            ###FIELD_author_name###
+            <!-- ###SUB_INCLUDED_FIELD_author_name### end -->
+          </li>
+          <!-- ###AUTHORS_EXTERNAL_ITEM### end -->
+          <!-- ###AUTHORS### end -->
+        </ul>
+        <!-- ###SUB_INCLUDED_FIELD_authors### end -->
+      </td>
+    </tr>
+    <!-- ###ITEM### end -->
+    <!-- ###LIST### end -->
+  </tbody>
+</table>
+<!-- ###LIST_VIEW### end -->
+<h1>Template for selected list view</h1>
+<!-- ###SELECTED_LIST_VIEW### begin -->
+<table class="formed">
+  <tbody>
+    <!-- ###LIST### begin -->
+    <!-- ###ITEM### begin -->
+    <tr class="###CLASS###">
+      <td><!-- ###SUB_INCLUDED_FIELD_title### begin -->
+        <strong>###FIELD_title###</strong><br />
+        <!-- ###SUB_INCLUDED_FIELD_title### end -->
+        <!-- ###SUB_INCLUDED_FIELD_magazine### begin -->
+        ###FIELD_magazine###
+        <!-- ###SUB_INCLUDED_FIELD_magazine### end -->
+        <!-- ###SUB_INCLUDED_FIELD_year### begin -->
+        ###FIELD_year###
+        <!-- ###SUB_INCLUDED_FIELD_year### end -->
+        <!-- ###SUB_INCLUDED_FIELD_status### begin -->
+        (###FIELD_status###)
+        <!-- ###SUB_INCLUDED_FIELD_status### end -->
+        <!-- ###SUB_INCLUDED_FIELD_doi### begin -->
+        <p>###LABEL_doi### ###FIELD_doi###</p>
+        <!-- ###SUB_INCLUDED_FIELD_doi### end -->
+        <!-- ###SUB_INCLUDED_FIELD_authors### begin -->
+        <ul>
+          <!-- ###AUTHORS### begin -->
+          <!-- ###AUTHORS_INTERNAL_ITEM### begin -->
+          <li class="###CLASS###">
+            <!-- ###SUB_INCLUDED_FIELD_author_name### begin -->
+            ###FIELD_author_name###
+            <!-- ###SUB_INCLUDED_FIELD_author_name### end -->
+          </li>
+          <!-- ###AUTHORS_INTERNAL_ITEM### end -->
+          <!-- ###AUTHORS_EXTERNAL_ITEM### begin -->
+          <li class="###CLASS###">
+            <!-- ###SUB_INCLUDED_FIELD_author_name### begin -->
+            ###FIELD_author_name###
+            <!-- ###SUB_INCLUDED_FIELD_author_name### end -->
+          </li>
+          <!-- ###AUTHORS_EXTERNAL_ITEM### end -->
+          <!-- ###AUTHORS### end -->
+        </ul>
+        <!-- ###SUB_INCLUDED_FIELD_authors### end -->
+      </td>
+    </tr>
+    <!-- ###ITEM### end -->
+    <!-- ###LIST### end -->
+  </tbody>
+</table>
+<!-- ###SELECTED_LIST_VIEW### end -->
+<h1>Template for single view</h1>
+<!-- ###SINGLE_VIEW### begin -->
+<!-- ###ITEM### begin -->
+<!-- ###SUB_INCLUDED_FIELD_title### begin -->
+<h2>###FIELD_title###</h2>
+<!-- ###SUB_INCLUDED_FIELD_title### end -->
+<!-- ###SUB_INCLUDED_FIELD_magazine### begin -->
+###FIELD_magazine###
+<!-- ###SUB_INCLUDED_FIELD_magazine### end -->
+<!-- ###SUB_INCLUDED_FIELD_year### begin -->
+###FIELD_year###
+<!-- ###SUB_INCLUDED_FIELD_year### end -->
+<!-- ###SUB_INCLUDED_FIELD_status### begin -->
+(###FIELD_status###)
+<!-- ###SUB_INCLUDED_FIELD_status### end -->
+<!-- ###SUB_INCLUDED_FIELD_issue### begin -->
+###FIELD_issue###
+<!-- ###SUB_INCLUDED_FIELD_issue### end -->
+<!-- ###SUB_INCLUDED_FIELD_page_start### begin -->
+###FIELD_page_start###
+<!-- ###SUB_INCLUDED_FIELD_page_start### end -->
+<!-- ###SUB_INCLUDED_FIELD_page_end### begin -->
+-###FIELD_page_end###
+<!-- ###SUB_INCLUDED_FIELD_page_end### end -->
+<!-- ###SUB_INCLUDED_FIELD_cover### begin -->
+<div class="cover">###FIELD_cover###</div>
+<!-- ###SUB_INCLUDED_FIELD_cover### end -->
+<!-- ###SUB_INCLUDED_FIELD_abstract### begin -->
+<h3>###LABEL_abstract###</h3>
+<p>###FIELD_abstract###</p>
+<!-- ###SUB_INCLUDED_FIELD_abstract### end -->
+<!-- ###SUB_INCLUDED_FIELD_doi### begin -->
+<br/>
+###LABEL_doi### ###FIELD_doi###
+<!-- ###SUB_INCLUDED_FIELD_doi### end -->
+<!-- ###SUB_INCLUDED_FIELD_ids### begin -->
+, ###LABEL_ids### ###FIELD_ids###
+<!-- ###SUB_INCLUDED_FIELD_ids### end -->
+<!-- ###SUB_INCLUDED_FIELD_url### begin -->
+<br />
+###LABEL_url### ###FIELD_url###
+<!-- ###SUB_INCLUDED_FIELD_url### end -->
+<!-- ###SUB_INCLUDED_FIELD_authors### begin -->
+<br />
+###LABEL_authors###:
+<ol>
+  <!-- ###AUTHORS### begin -->
+  <!-- ###AUTHORS_INTERNAL_ITEM### begin -->
+  <li class="###CLASS###">
+    <!-- ###SUB_INCLUDED_FIELD_author_first_name### begin -->
+    ###LABEL_author_first_name### ###FIELD_author_first_name###<br />
+    <!-- ###SUB_INCLUDED_FIELD_author_first_name### end -->
+    <!-- ###SUB_INCLUDED_FIELD_author_last_name### begin -->
+    ###LABEL_author_last_name### ###FIELD_author_last_name###<br />
+    <!-- ###SUB_INCLUDED_FIELD_author_last_name### end -->
+    <!-- ###SUB_INCLUDED_FIELD_author_organisation### begin -->
+    ###LABEL_author_organisation### ###FIELD_author_organisation###<br />
+    <!-- ###SUB_INCLUDED_FIELD_author_organisation### end -->
+    <!-- ###SUB_INCLUDED_FIELD_author_email### begin -->
+    ###LABEL_author_email### ###FIELD_author_email###<br />
+    <!-- ###SUB_INCLUDED_FIELD_author_email### end -->
+    <!-- ###SUB_INCLUDED_FIELD_author_www### begin -->
+    ###LABEL_author_www### ###FIELD_author_www###<br />
+    <!-- ###SUB_INCLUDED_FIELD_author_www### end -->
+  </li>
+  <!-- ###AUTHORS_INTERNAL_ITEM### end -->
+  <!-- ###AUTHORS_EXTERNAL_ITEM### begin -->
+  <li class="###CLASS###">
+    <!-- ###SUB_INCLUDED_FIELD_author_first_name### begin -->
+    ###LABEL_author_first_name### ###FIELD_author_first_name###<br />
+    <!-- ###SUB_INCLUDED_FIELD_author_first_name### end -->
+    <!-- ###SUB_INCLUDED_FIELD_author_last_name### begin -->
+    ###LABEL_author_last_name### ###FIELD_author_last_name###<br />
+    <!-- ###SUB_INCLUDED_FIELD_author_last_name### end -->
+    <!-- ###SUB_INCLUDED_FIELD_author_organisation### begin -->
+    ###LABEL_author_organisation### ###FIELD_author_organisation###<br />
+    <!-- ###SUB_INCLUDED_FIELD_author_organisation### end -->
+    <!-- ###SUB_INCLUDED_FIELD_author_email### begin -->
+    ###LABEL_author_email### ###FIELD_author_email###<br />
+    <!-- ###SUB_INCLUDED_FIELD_author_email### end -->
+    <!-- ###SUB_INCLUDED_FIELD_author_www### begin -->
+    ###LABEL_author_www### ###FIELD_author_www###<br />
+    <!-- ###SUB_INCLUDED_FIELD_author_www### end -->
+  </li>
+  <!-- ###AUTHORS_EXTERNAL_ITEM### end -->
+  <!-- ###AUTHORS### end -->
+</ol>
+<!-- ###SUB_INCLUDED_FIELD_authors### end -->
+<!-- ###SUB_INCLUDED_FIELD_comment### begin -->
+###LABEL_comment### ###FIELD_comment###
+<!-- ###SUB_INCLUDED_FIELD_comment### end -->
+<!-- ###ITEM### end -->
+<!-- ###SINGLE_VIEW### end -->
+</body>
+</html>

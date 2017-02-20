@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'we_publication'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_wepublication_docs">Publication</label>
+			<label index="tx_wepublication_docs.title">Title of publication</label>
+			<label index="tx_wepublication_docs.magazine_be_label">Magazine</label>
+			<label index="tx_wepublication_docs.magazine">Magazine</label>
+			<label index="tx_wepublication_docs.magazine2">Magazine (predefined)</label>
+			<label index="tx_wepublication_docs.details_be_label">Details</label>
+			<label index="tx_wepublication_docs.year">Year</label>
+			<label index="tx_wepublication_docs.status.I.1">to be published</label>
+			<label index="tx_wepublication_docs.status.I.2">submitted</label>
+			<label index="tx_wepublication_docs.status.I.3">accepted for publication</label>
+			<label index="tx_wepublication_docs.status.I.4">in press</label>
+			<label index="tx_wepublication_docs.status">status</label>
+			<label index="tx_wepublication_docs.issue">Issue</label>
+			<label index="tx_wepublication_docs.page">Pages</label>
+			<label index="tx_wepublication_docs.magazine_pages_be_label">Pages</label>
+			<label index="tx_wepublication_docs.page_end">End</label>
+			<label index="tx_wepublication_docs.page_start">Start</label>
+			<label index="tx_wepublication_docs.abstract">Abstract</label>
+			<label index="tx_wepublication_docs.cover">Cover</label>
+			<label index="tx_wepublication_docs.document_1_be_label">Document 1</label>
+			<label index="tx_wepublication_docs.document_1_file">File</label>
+			<label index="tx_wepublication_docs.document_1_title">Title</label>
+			<label index="tx_wepublication_docs.document_2_be_label">Document 2</label>
+			<label index="tx_wepublication_docs.document_2_file">File</label>
+			<label index="tx_wepublication_docs.document_2_title">Title</label>
+			<label index="tx_wepublication_docs.document_3_be_label">Document 3</label>
+			<label index="tx_wepublication_docs.document_3_file">File</label>
+			<label index="tx_wepublication_docs.document_3_title">Title</label>
+			<label index="tx_wepublication_docs.url_be_label">URL</label>
+			<label index="tx_wepublication_docs.url_href">URL</label>
+			<label index="tx_wepublication_docs.url_title">Title</label>
+			<label index="tx_wepublication_docs.doi">Digital object identifier (doi)</label>
+			<label index="tx_wepublication_docs.pacs">PACS</label>
+			<label index="tx_wepublication_docs.authors">Authors</label>
+			<label index="tx_wepublication_docs.author_grp_external">Authors group (external)</label>
+			<label index="tx_wepublication_docs.author_grp_internal">Authors group (internal)</label>
+			<label index="tx_wepublication_docs.comment">comment</label>
+            <label index="tx_wepublication_docs.tx_wepublication_magazine">Magazine</label>
+			<label index="tx_wepublication_magazine">Magazine</label>
+            <label index="tx_wepublication_magazine.title">Title</label>
+			<label index="tt_content.list_type_pi1">Publications</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_wepublication_docs">Publikation</label>
+			<label index="tx_wepublication_docs.title">Titel der Veröffentlichung</label>
+			<label index="tx_wepublication_docs.magazine_be_label">Zeitschrift</label>
+			<label index="tx_wepublication_docs.magazine">Zeitschrift</label>
+			<label index="tx_wepublication_docs.magazine2">Zeitschrift (vordefiniert)</label>
+			<label index="tx_wepublication_docs.details_be_label">Details</label>
+			<label index="tx_wepublication_docs.year">Jahrgang</label>
+			<label index="tx_wepublication_docs.status.I.1">to be published</label>
+			<label index="tx_wepublication_docs.status.I.2">submitted</label>
+			<label index="tx_wepublication_docs.status.I.3">accepted for publication</label>
+			<label index="tx_wepublication_docs.status.I.4">in press</label>
+			<label index="tx_wepublication_docs.status">Status</label>
+			<label index="tx_wepublication_docs.issue">Ausgabe</label>
+			<label index="tx_wepublication_docs.magazine_pages_be_label">Seiten</label>
+			<label index="tx_wepublication_docs.page">Seite</label>
+			<label index="tx_wepublication_docs.page_end">Ende</label>
+			<label index="tx_wepublication_docs.page_start">Anfang</label>
+			<label index="tx_wepublication_docs.abstract">Zusammenfassung</label>
+			<label index="tx_wepublication_docs.cover">Titelblatt</label>
+			<label index="tx_wepublication_docs.document_1_be_label">Dokument 1</label>
+			<label index="tx_wepublication_docs.document_1_file">Datei</label>
+			<label index="tx_wepublication_docs.document_1_title">Linktext</label>
+			<label index="tx_wepublication_docs.document_2_be_label">Dokument 2</label>
+			<label index="tx_wepublication_docs.document_2_file">Datei</label>
+			<label index="tx_wepublication_docs.document_2_title">Linktext</label>
+			<label index="tx_wepublication_docs.document_3_be_label">Dokument 3</label>
+			<label index="tx_wepublication_docs.document_3_file">Datei</label>
+			<label index="tx_wepublication_docs.document_3_title">Linktext</label>
+			<label index="tx_wepublication_docs.url_be_label">URL</label>
+			<label index="tx_wepublication_docs.url_href">URL</label>
+			<label index="tx_wepublication_docs.url_title">Linktext</label>
+			<label index="tx_wepublication_docs.doi">Digital Object Identifier (DOI)</label>
+			<label index="tx_wepublication_docs.pacs">PACS</label>
+			<label index="tx_wepublication_docs.authors">Autoren</label>
+			<label index="tx_wepublication_docs.author_grp_external">Autoren-Gruppe (extern)</label>
+			<label index="tx_wepublication_docs.author_grp_internal">Autoren-Gruppe (intern)</label>
+			<label index="tx_wepublication_docs.comment">Kommentar</label>
+      <label index="tx_wepublication_docs.tx_wepublication_magazine">Magazin</label>
+			<label index="tx_wepublication_magazine">Magazin</label>
+      <label index="tx_wepublication_magazine.title">Titel</label>
+			<label index="tt_content.list_type_pi1">Publikationen</label>
+		</languageKey>
+	</data>
+</T3locallang>
